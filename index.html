@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Inicio</title>
+</head>
+
+<body>
+
+  <!-- BANNER -->
+
+  <section class="banner" id="banner">
+    <div class="banner_info">
+      <h1 class="banner_title">
+        BASTIAN DIAZ
+      </h1>
+      <hr>
+      <p class="banner_p">
+      <h1><span class="auto-type"></span></h1>
+      </p>
+    </div>
+  </section>
+
+  <!-- NAVBAR -->
+
+  <div class="navbar">
+    <ul>
+      <li><a href="#banner">Inicio</a></li>
+      <li><a href="#acerca">Acerca de</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </div>
+
+  <!-- CONTENIDO DE LA PÁGINA -->
+
+  <div class="contenido">
+
+    <!-- ACERCA DE -->
+
+    <div class="acerca" id="acerca">
+      <h1>ACERCA DE MI</h1>
+      <img class="icono" src="img/icon.png" alt="">
+      <p>
+        Mi nombre es Bastián Díaz, tengo 22 años y estoy titulado en Analista Programador, no tengo experiencia laboral,
+        pero cuento con conocimientos en:
+      </p>
+      <div class="lenguajes">
+        <h3>PYTHON<img class="iconos" src="img/python.png" alt=""></h3>
+        <h3>HTML<img class="iconos" src="img/html.png" alt=""></h3>
+        <h3>JAVASCRIPT<img class="iconos" src="img/javascript.png" alt=""></h3>
+        <h3>CSS3<img class="iconos" src="img/css.png" alt=""></h3>
+        <h3>REACT<img class="iconos" src="img/react.png" alt=""></h3>
+      </div>
+      <p>
+        también he visto algunas veces Django, SQL, PostgreSQL, MongoDB, Laravel y Docker.
+      </p>
+    </div>
+
+    <!-- PROYECTOS -->
+
+    <div class="proyectos" id="proyectos">
+      <h1>PROYECTOS</h1>
+      <div class="proyectos-imagenes">
+        <div class="container">
+          <div>
+            <div class="proyecto-carta">
+              <h3>Sitio Frontend</h3>
+              <p>El sitio se llama 'MAPCOTA', fue un página destinada al cuidado de perros y gatos realizado
+                en mi práctica profesional, hecho en base a Laravel, acompañado de HTML, CSS3 y Javascript.</p>
+              <br>
+              <button class="proyecto1">Saber más...</button>
+            </div>
+            <div class="proyecto-carta">
+              <h3>En desarrollo...</h3>
+              <p>Creando proyecto para mi portafolio...</p>
+
+            </div>
+            <div class="proyecto-carta">
+              <h3>En desarrollo...</h3>
+              <p>Creando proyecto para mi portafolio...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="modal">
+      <div class="modal-container">
+        <h2 class="modal-title">Previsualización</h2>
+
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="img/proyecto1/foto1.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/proyecto1/foto2.png" style="width:100%">
+          </div>
+
+          <div class="mySlides fade">
+            <img src="img/proyecto1/foto3.png" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <p class="modal-p">Link del proyecto:</p>
+        <a href="#" class="modal-close">Volver</a>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+
+    <div class="contacto" id="contacto">
+      <h1>CONTACTO</h1>
+      <form>
+        <input name="name" type="text" class="feedback-input" placeholder="Nombre" />
+        <input name="email" type="text" class="feedback-input" placeholder="Correo" />
+        <textarea name="text" class="feedback-input" placeholder="Mensaje..."></textarea>
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+
+    <br>
+
+    <!-- RELLENO -->
+
+    <div class="gracias">
+      <h1>¡GRACIAS POR HABER VISITADO MI SITIO WEB!</h1>
+    </div>
+
+    <!-- PIÉ DE PÁGINA -->
+
+    <div class="footer">
+      <a href="https://github.com/bstndz"><img src="img/github.png" alt=""></a>
+      <a href="https://www.linkedin.com/in/bstndz/"><img src="img/linkedin.png" alt=""></a>
+      <br>
+      <p>BASTIAN DIAZ 2022 ©</p>
+    </div>
+
+    <!-- CONTENIDO DE LA PÁGINA -->
+
+  </div>
+
+  <!-- JAVASCRIPT   -->
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script src="js/main.js" defer></script>
+
+
+</body>
+
+</html>
